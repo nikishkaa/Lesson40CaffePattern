@@ -2,6 +2,7 @@ package by.itstep.goutor.javalesson.lesson40.controller;
 
 import by.itstep.goutor.javalesson.lesson40.model.entyti.Beverage;
 import by.itstep.goutor.javalesson.lesson40.model.entyti.Espresso;
+import by.itstep.goutor.javalesson.lesson40.model.entyti.HouseBlend;
 import by.itstep.goutor.javalesson.lesson40.model.entyti.condiment.Milk;
 import by.itstep.goutor.javalesson.lesson40.model.entyti.condiment.Mocha;
 
@@ -21,6 +22,11 @@ public class Main {
         beverage = new Mocha(beverage);
         beverage = new Mocha(beverage);
         print(beverage);
+
+
+        System.out.println("\nTest 04: ");
+        Beverage coffee = new Mocha(new Mocha(new Mocha(new Milk(new HouseBlend()))));
+        print(coffee);
     }
 
     public static void print(Beverage beverage) {
