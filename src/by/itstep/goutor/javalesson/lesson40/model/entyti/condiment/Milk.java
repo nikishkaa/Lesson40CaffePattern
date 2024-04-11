@@ -3,7 +3,6 @@ package by.itstep.goutor.javalesson.lesson40.model.entyti.condiment;
 import by.itstep.goutor.javalesson.lesson40.model.entyti.Beverage;
 
 public class Milk extends CondimentDecorator {
-    private Beverage beverage;
 
     public Milk(Beverage beverage) {
         this.beverage = beverage;

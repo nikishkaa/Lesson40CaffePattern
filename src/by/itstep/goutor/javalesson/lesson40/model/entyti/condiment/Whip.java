@@ -3,7 +3,6 @@ package by.itstep.goutor.javalesson.lesson40.model.entyti.condiment;
 import by.itstep.goutor.javalesson.lesson40.model.entyti.Beverage;
 
 public class Whip extends CondimentDecorator {
-    private Beverage beverage;
 
     public Whip(Beverage beverage) {
         this.beverage = beverage;
