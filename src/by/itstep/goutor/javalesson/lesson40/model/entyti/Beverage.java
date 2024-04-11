@@ -19,6 +19,6 @@ public abstract class Beverage {
 
     @Override
     public String toString() {
-        return description;
+        return getDescription();
     }
 }
