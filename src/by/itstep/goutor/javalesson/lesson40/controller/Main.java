@@ -14,6 +14,7 @@ public class Main {
         beverage = new Espresso();
         print(beverage);
 
+
         System.out.println("\nTest 02: ");
         beverage = new Milk(beverage);
         print(beverage);
